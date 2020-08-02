@@ -17,11 +17,16 @@
     top: 150px;
 }
 
+.animate{
+    animation: jump 500ms;
+}
+
 @keyframes jump{
     0%{top: 150px;}
     30%{top: 100px;}
     70%{top: 100px;}
     100%{top: 150px;}
+  
 }
 
 #block{
@@ -37,4 +42,8 @@
 @keyframes block {
     0%{left:500px;}
     100%{left:-20px;}
+}
+
+p{
+    text-align: center;
 }

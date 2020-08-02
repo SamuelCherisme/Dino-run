@@ -1,8 +1,7 @@
-console.log('Connected');
+const character = $('#character')
+const block = $('#block')
+const counter = 0;
 
-$(() => {
+$(function(){
 
-    const $mainCharacter = $('#container')
-})
-
-
+});
