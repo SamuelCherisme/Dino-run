@@ -1,3 +1,4 @@
+
 var character = document.getElementById("character");
 var block = document.getElementById("block");
 var counter =0;
