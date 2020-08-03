@@ -23,9 +23,6 @@ var checkDead = setInterval(function(){
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
     }
 
-    while(character > block){
-        character++;
-    }
 
 },10);
 
