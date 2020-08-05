@@ -43,14 +43,18 @@
 }
 
 #block{
-    width: 20px;
-    height: 20px;
-    background-color: yellow;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    /*background-color: yellow;*/
     position: relative;
     top: 140px;
     left: 480px;
-    animation: block 1s infinite linear;
-   
+    animation: block 1s infinite linear;   
+}
+
+#block img{
+    width: 30px;
 }
 
 @keyframes block {
